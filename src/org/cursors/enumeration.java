@@ -5,6 +5,17 @@ import java.util.Vector;
 
 public class enumeration {
 	
+	private void vicky() {
+
+	}
+	
+	private void bala() {
+
+	}
+	private void siresha() {
+
+	}
+	
 	public static void main(String[] args) {
 		
 		Vector<Integer> v =new Vector<>();
@@ -13,10 +24,14 @@ public class enumeration {
 		v.add(30);
 		v.add(40);
 		
+		
+		
 		Enumeration<Integer> elements = v.elements();
 		while (elements.hasMoreElements()) {
 			Integer integer = (Integer) elements.nextElement();
 			System.out.println(integer);
+			
+			
 			
 		}
 		
